@@ -1,0 +1,29 @@
+/* Font-related */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'Vice City Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Vice City Sans Regular'), url('../fonts/ViceCitySans.woff') format('woff');
+}
+
+.en-ViceCitySans {
+    font-family: 'Vice City Sans Regular', sans-serif;
+    font-weight: normal;
+    width: auto !important;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  */
+
+
+.clickable{
+    cursor: pointer !important;
+}
+
+.rounded {
+    border-radius: 15px 15px 15px 15px !important;
+}
